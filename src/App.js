@@ -14,7 +14,7 @@ export default class App extends React.Component {
   }
 
   trackMouse(event) {
-    this.canvasMousePosition = getCanvasPosition(event);''
+    this.canvasMousePosition = getCanvasPosition(event);
   }
 
   render() {
