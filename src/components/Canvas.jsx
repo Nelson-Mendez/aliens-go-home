@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import Sky from './Sky'
 import Ground from './Ground'
 import CannonBase from './CannonBase'
