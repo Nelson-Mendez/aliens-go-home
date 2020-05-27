@@ -38,7 +38,7 @@ const CannonPipe = (props) => {
     <g transform={transform}>
       <path
         style={cannonPipeStyle}
-        d={pathFromBezierCurve(cubicBezierCurve)}
+        d= {pathFromBezierCurve(cubicBezierCurve)}
       />
       <line
         x1={-halfMuzzle}
