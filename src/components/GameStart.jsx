@@ -22,7 +22,7 @@ const StartGame = (props) => {
     x: 0, // center relative to X axis
     y: -150, // 150 up
     style: {
-      fontFamily: '"Joti One", cursive',
+      fontFamily: '"Open Sans", cursive',
       fontSize: 60,
       fill: '#e3e3e3',
       cursor: 'pointer',

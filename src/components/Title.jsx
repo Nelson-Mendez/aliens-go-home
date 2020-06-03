@@ -22,7 +22,7 @@ const Title = () => {
       y: -50,
     },
     endingAxis: {
-      x: 380,
+      x: 320,
       y: 0,
     },
   };
@@ -61,12 +61,12 @@ const Title = () => {
       </defs>
       <text {...textStyle}>
         <textPath xlinkHref="#AliensPath">
-          Aliens,
+          Earth
         </textPath>
       </text>
       <text {...textStyle}>
         <textPath xlinkHref="#GoHomePath">
-          Go Home!
+          Defence!
         </textPath>
       </text>
     </g>

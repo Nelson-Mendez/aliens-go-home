@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const CurrentScore = (props) => {
+
   const scoreStyle = {
     fontFamily: '"Open Sans", cursive',
     fontSize: 80,

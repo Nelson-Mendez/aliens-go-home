@@ -4,6 +4,7 @@ import styled, { keyframes } from 'styled-components';
 import FlyingObjectBase from './FlyingObjectBase';
 import FlyingObjectTop from './FlyingObjectTop';
 import { gameHeight } from '../utilities/constants';
+// import { CurrentScore } from './Score';
 
 const moveVertically = keyframes`
   0% {
@@ -30,6 +31,7 @@ FlyingObject.propTypes = {
     x: PropTypes.number.isRequired,
     y: PropTypes.number.isRequired
   }).isRequired,
+  killCount: PropTypes.number.isRequired
 };
 
 export default FlyingObject;
